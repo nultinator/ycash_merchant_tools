@@ -1,4 +1,6 @@
 include("ycash.jl")
+orders = [] #this array would presumably be filled with orders
+filled = [] #this one would consist of finished orders
 function show_unfilled()
   for order in orders
     println("$order")
